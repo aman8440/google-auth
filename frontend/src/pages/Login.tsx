@@ -1,6 +1,6 @@
 import { GoogleLogin, GoogleOAuthProvider } from '@react-oauth/google';
 import { useNavigate } from 'react-router-dom';
-import { constVariable } from '../environments/environements';
+import { constVariable } from '../environments/environments';
 
 const Login = () => {
   const navigate = useNavigate();
